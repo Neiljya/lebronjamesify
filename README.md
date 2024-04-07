@@ -3,7 +3,8 @@ Literally just pastes lebron james's face on pictures
 
 # LeBronizer: Pasting LeBron James' Face on Images
 
-Welcome to the LeBronizer, a fun and innovative Python project that allows you to superimpose the legendary basketball player LeBron James' face onto any picture. Whether you're looking to add a touch of athleticism to your family photos or want to see how your favorite historical figure would look sporting LeBron's iconic visage, LeBronizer is here to dunk your photos into the realm of creativity!
+Welcome to the Lebronjamesifier, an extremely useful program allows you to superimpose the legendary king of the court basketball player LeBron James's face onto any picture (that has a face). Whether you're looking to admire King James or 
+want to pretend like he's a part of your family, this program can easily allow you to spread the glory of Lebron James!
 
 ## Features
 

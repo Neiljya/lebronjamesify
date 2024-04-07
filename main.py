@@ -5,7 +5,7 @@ img_path = "image/sample.jpg"
 overlay_path = "overlay/jamesify.jpg"
 
 def detect_faces(img_path):
-    # Load the input image and convert it from BGR to RGB
+    # Convert image from BGR to RGB
     image = cv2.imread(img_path)
     image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
@@ -25,10 +25,10 @@ def overlay_img(img_path, overlay_path):
     pil_image = Image.fromarray(image_rgb)
 
     for (x, y, w, h) in faces:
-        # Resize the overlay image to fit the face
+        # Resize Lebron's beautiful face to fit the face
         resized_overlay_image = overlay_image.resize((w*3,h*3), Image.Resampling.LANCZOS)
 
-        # Overlay
+        # Overlay Lebron
         pil_image.paste(resized_overlay_image,((x-w)+5, (y-h)+5), resized_overlay_image)
 
     # Saving the result
